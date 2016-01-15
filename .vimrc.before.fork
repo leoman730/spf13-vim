@@ -10,3 +10,10 @@
 " 7. .vimrc - spf13-vim vim configuration
 " 8. .vimrc.fork - fork vim configuration
 " 9. .vimrc.local - local user configuration
+
+" only include the bundle i need
+if !exists("g:spf13_bundle_groups")
+    let g:spf13_bundle_groups=['php']
+endif
+
+
