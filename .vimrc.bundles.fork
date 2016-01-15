@@ -1,0 +1,18 @@
+" If you intent to modify any bundle specific configurations of the fork version of origin spf13-vim (You should not modify the .vimrc.bundles)
+
+" Modify this to include any bundle specific configuration for vim
+
+" 1. .vimrc.before - spf13-vim before configuration
+" 2. .vimrc.before.fork - fork before configuration
+" 3. .vimrc.before.local - before user configuration
+" 4. .vimrc.bundles - spf13-vim bundle configuration
+" 5. .vimrc.bundles.fork - fork bundle configuration
+" 6. .vimrc.bundles.local - local user bundle configuration
+" 7. .vimrc - spf13-vim vim configuration
+" 8. .vimrc.fork - fork vim configuration
+" 9. .vimrc.local - local user configuration
+
+
+" Example: 
+"	Bundle 'Shougo/vimproc.vim'
+"	UnBundle 'Shougo/vimproc.vim'
