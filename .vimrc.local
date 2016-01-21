@@ -1,4 +1,4 @@
-" If you intent to modify only for the local environment (You should not modify the .vimrc.before)
+" If you intent to modify the fork version of origin spf13-vim (You should not modify the .vimrc.before)
 " Modify this to include any configuration for vim that needs to be executed by .vimrc
 "
 " 1. .vimrc.before - spf13-vim before configuration
