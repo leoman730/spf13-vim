@@ -13,6 +13,7 @@
 
 " macvim settings
 if (OSX() && has("gui_running"))
-    set lines=80                " 80 lines of text instead of 24
+    set lines=80                " 80 lines of text instead of 24"
     set guifont=Andale\ Mono\ Regular:h15,Menlo\ Regular:h15,Consolas\ Regular:h15,Courier\ New\ Regular:h15
 endif
+
