@@ -13,8 +13,12 @@
 
 colorscheme base16-ocean
 
+set DisablePHPFolds "Disable folding from piv plugin
+
+
 " macvim settings
 if (OSX() && has("gui_running"))
     set lines=80                " 80 lines of text instead of 24"
     set guifont=Menlo\ Regular:h18,Consolas\ Regular:h18,Courier\ New\ Regular:h18
 endif
+
