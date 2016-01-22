@@ -10,10 +10,3 @@
 " 7. .vimrc - spf13-vim vim configuration
 " 8. .vimrc.fork - fork vim configuration
 " 9. .vimrc.local - local user configuration
-colorscheme base16-ocean
-
-" macvim settings
-if (OSX() && has("gui_running"))
-    set lines=80                " 80 lines of text instead of 24"
-    set guifont=Menlo\ Regular:h18,Consolas\ Regular:h18,Courier\ New\ Regular:h18
-endif
