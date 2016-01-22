@@ -12,7 +12,7 @@
 " 9. .vimrc.local - local user configuration
 
 colorscheme base16-ocean
-
+let g:DisableAutoPHPFolding = 1 
 " macvim settings
 if (OSX() && has("gui_running"))
     set lines=80                " 80 lines of text instead of 24"
