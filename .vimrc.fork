@@ -10,10 +10,3 @@
 " 7. .vimrc - spf13-vim vim configuration
 " 8. .vimrc.fork - fork vim configuration
 " 9. .vimrc.local - local user configuration
-
-" macvim settings
-if (OSX() && has("gui_running"))
-    set lines=80                " 80 lines of text instead of 24"
-    set guifont=Andale\ Mono\ Regular:h15,Menlo\ Regular:h15,Consolas\ Regular:h15,Courier\ New\ Regular:h15
-endif
-
