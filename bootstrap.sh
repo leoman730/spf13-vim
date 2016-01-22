@@ -132,6 +132,10 @@ create_symlinks() {
     fi
 
     touch  "$target_path/.vimrc.local"
+    touch  "$target_path/.vimrc.before.local"
+
+    lnif "$source_path/.vim.before.local"           "$target_path/.vim.before.local"
+    lnif "$source_path/.vimrc.bundles.local"        "$target_path/.vimrc.bundles.local"
 
     ret="$?"
     success "Setting up vim symlinks."
