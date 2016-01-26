@@ -73,3 +73,29 @@ echo UnBundle \'chriskempson/base16-vim\' >> ~/.vimrc.bundles.local
 :colorcheme base16-default
 
 ```
+
+### Match braces
+
+Use `%` key to match ({{}])  
+To select context inside the match braces: `v%`
+
+### Commenting 
+[Reference](http://spf13.com/post/vim-plugins-nerd-commenter)
+
+```
+# Toggle comment
+<leader>c<space>
+
+# Sexier comment
+<leader>cs<space>
+```
+
+### Search
+Use `*` to search the term under cursor  
+To remove current search highlight: `:noh`
+
+### Undo / Redo
+u: Undo last change (can be repeated to undo preceding commands)
+Ctrl-R: Redo changes which were undone (undo the undos)
+
+
