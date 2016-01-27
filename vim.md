@@ -79,7 +79,7 @@ echo UnBundle \'chriskempson/base16-vim\' >> ~/.vimrc.bundles.local
 Use `%` key to match ({{}])  
 To select context inside the match braces: `v%`
 
-### Commenting 
+### Commenting
 [Reference](http://spf13.com/post/vim-plugins-nerd-commenter)
 
 ```
