@@ -16,7 +16,3 @@ if !exists("g:spf13_bundle_groups")
     let g:spf13_bundle_groups=['general', 'neocomplete', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'elixir', 'youcompleteme', 'snipmate']
 endif
 
-set foldlevelstart=99 "not working"
-autocmd BufWinEnter * set foldlevel=999999 "not working"
-set nofoldenable "not working"
-
