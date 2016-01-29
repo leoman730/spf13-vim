@@ -148,6 +148,17 @@ expandtab (off) - the Tab key inserts a the smallest possible number of tab+spac
 ```
 
 
+### ZenCoding - The Emmet plugin
+[Tutorial](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
+
+```
+Activate expandsion: '<c-y>,'
+Wrap with an abbreviation: '<c-y>,' in visual mode
+Merge line: '<c-y>m'
+Toggle comment: '<c-y>/'
+Make an anchor from a URL: Select url, then '<c-y>a'
+```
+
 ## References:
 
 [Vim Tips & Tricks](https://www.cs.swarthmore.edu/help/vim/home.html)  
