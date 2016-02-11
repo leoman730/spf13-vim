@@ -19,3 +19,5 @@ if (OSX() && has("gui_running"))
     set guifont=Menlo\ Regular:h18,Consolas\ Regular:h18,Courier\ New\ Regular:h18
 endif
 
+autocmd FileType html setlocal noexpandtab shiftwidth=4 softtabstop=4
+
