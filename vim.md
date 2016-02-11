@@ -2,6 +2,9 @@
 ```
 #reload without restart vim 
 :source $MYVIMRC
+
+#reload current file content
+:e! 
 ```
 
 ### The \<leader\>?
@@ -123,6 +126,12 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 ### Copy & Paste
 To copy to clicpboard, select the desire lines in visual mode, then `!pbcopy` 
+Copy line by range  
+```
+:12,15y -- copy line from 12 to 15
+```
+
+
 
 ### Variables
 ```
@@ -158,6 +167,11 @@ Merge line: '<c-y>m'
 Toggle comment: '<c-y>/'
 Make an anchor from a URL: Select url, then '<c-y>a'
 ```
+
+### Status
+Find out the current opened file name: `:f`
+
+
 
 ## References:
 
