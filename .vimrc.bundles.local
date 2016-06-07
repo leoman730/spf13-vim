@@ -16,4 +16,4 @@
 " Example: 
 "	Bundle 'Shougo/vimproc.vim'
 "	UnBundle 'Shougo/vimproc.vim'
-"	Make sure run 'vim +BundleInstall! +BundleClean +q' after update this
+"	Make sure run 'vim +BundleInstall! +BundleClean +q' after update thisUnBundle 'chriskempson/base16-vim'
